@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+.wrapper {
+  margin: auto;
+  width: 80%;
+}
+.logo, .menu {
+  display: inline-block;
+  border: dashed 1px red;
+}
+.logo {
+  margin-right: 63%;
+  padding: 40px 0;
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  display:flex;
+  align-items:center;
+}
+.menu_item {
+  padding: 0 13px;
+  border: dashed 1px red;
+}
+.menu_item:last-child{
+  padding-right:0;
+}
