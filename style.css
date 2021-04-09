@@ -36,7 +36,7 @@ body {
 }
 .menu_item:hover{
   opacity: .5;
-  font-weight: 900;
+  font-weight: 700;
   font-size: 150%;
 }
 .menu_item:after{
