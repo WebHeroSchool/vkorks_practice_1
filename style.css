@@ -12,7 +12,7 @@
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 18px/21px pt_serif, arial, helvetica, sans-serif;
+  font: 700 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
 .header{
   padding:40px 0;
@@ -73,27 +73,28 @@
   background: #0056EC;
 }
 .main {
-  border: dashed 1px red;
   padding: 60px 63% 100% 0;
   background: top right no-repeat url(img/main-img.svg);
 }
 .main__title {
   margin:0 0 40px 0;
-  font: 700 66px/102px pt_serif, arial, helvetica, sans-serif;
+  font: 700 66px/87px pt_serif, arial, helvetica, sans-serif;
 }
 .main__title-text_highlight {
   background: #ECF3FF;
+  line-height: 99px;
 }
 .main__text {
   margin: 0 0 41px 0;
-  font: 18px/21px roboto, arial, helvetica, sans-serif;
+  font: 400 22px/25px roboto, arial, helvetica, sans-serif;
 }
 .main__button {
+  text-align: center;
   display: inline-block;
   width:250px;
-  height: 50px;
+  height: 29px;
   padding: 14px 16px;
-  font: bold 14px/16px robotolight, arial, helvetica, sans-serif;
+  font: 500 18px/21px roboto, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
   text-decoration: none;
