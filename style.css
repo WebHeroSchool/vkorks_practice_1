@@ -2,32 +2,34 @@
   margin: 0;
 }
 .wrapper {
+  padding: 0 189px;
   margin: auto;
-  width: 80%;
+  width: 1523px;
+  height: 1080px;
 }
 .logo, .menu {
   display: inline-block;
 }
 .logo {
   position: relative;
-  padding: 40px 0;
-  padding-left: 44px;
-  font: bold 18px/21px pt_serif, arial, helvetica, sans-serif;
+  padding-left: 45px;
+  font: 700 24px/31px pt_serif, arial, helvetica, sans-serif;
 }
 .header{
-  padding:40px 0;
+  padding: 32px 0 40px 0;
+  margin-bottom: 125px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 100px;
 }
 .menu{
   display:flex;
   align-items:center;
+  margin: 1px 3px 0 0;
 }
 .menu__item {
   position:relative;
   margin-right: 26px;
-  font: 500 18px/21px roboto, arial, helvetica, sans-serif;
+  font: 500 18px/21px 'robotomedium', arial, helvetica, sans-serif;
   color:#000;
   text-decoration: none;
   transition: opacity .5s, font-size 1.5s;
@@ -73,33 +75,39 @@
   background: #0056EC;
 }
 .main {
-  border: dashed 1px red;
-  padding: 60px 63% 100% 0;
+  padding: 75px 70% 269px 0;
   background: top right no-repeat url(img/main-img.svg);
 }
 .main__title {
-  margin:0 0 40px 0;
-  font: 700 66px/102px pt_serif, arial, helvetica, sans-serif;
+  letter-spacing: 2.5px;
+  margin: 0 0 45px 0;
+  font: 700 66px/89px 'pt_serifregular', arial, helvetica sans-serif;
+  width: 600px;
+  height: 255px;
 }
 .main__title-text_highlight {
-  background: #ECF3FF;
+  background: linear-gradient(to top, #ecf3ff 78%, #fff 22%);
 }
 .main__text {
-  margin: 0 0 41px 0;
-  font: 18px/21px roboto, arial, helvetica, sans-serif;
+  margin: 0 0 43px 0;
+  font: 400 22px/26px 'robotoregular', arial, helvetica, sans-serif;
 }
 .main__button {
   display: inline-block;
-  width:250px;
-  height: 50px;
-  padding: 14px 16px;
-  font: bold 14px/16px robotolight, arial, helvetica, sans-serif;
+  font: 300 18px/21px 'robotomedium', arial, helvetica, sans-serif;
   color: #fff;
-  background: #0056EC;
+  background: no-repeat #0056ec;
+  padding: 18px 34px 17px 21px;
   text-decoration: none;
   border-radius: 4px;
-  transition: opacity .5s;
+  transition: 0.5s;
 }
 .main__button:hover {
   opacity: .5;
+}
+.elipses {
+  margin: auto;
+  width: 32px;
+  height: 8px;
+  background: no-repeat url('img/elipses.svg');
 }
