@@ -1,8 +1,8 @@
-.body {
+body {
   margin: 0;
 }
 .wrapper {
-  margin: auto;
+      margin: -41px 195px 0 197px;
  width: auto;
 }
 .hamburger-menu {
@@ -15,7 +15,7 @@
   position: relative;
   padding: 40px 0;
   padding-left: 44px;
-  font: bold 18px/21px pt_serif, arial, helvetica, sans-serif;
+  font: bold 23px/31px pt_serif, arial, helvetica, sans-serif;
 }
 .header{
   padding:40px 0;
@@ -77,31 +77,34 @@
   background: #0056EC;
 }
 .main {
-  padding: 75px 70% 269px 0;
+  margin-top: -16px;
+  padding: 75px 66% 269px 0;
   background: 100% 4% no-repeat url(img/main-img.svg);
 }
 .main__title {
   margin:0 0 40px 0;
-  font: 700 66px/102px pt_serif, arial, helvetica, sans-serif;
+  font: 700 66px/90px pt_serif, arial, helvetica, sans-serif;
 }
 .main__title-text_highlight {
   background: #ECF3FF;
 }
 .main__text {
-  margin: 0 0 41px 0;
+  margin: 0 0 45px 0;
   font: 18px/21px roboto, arial, helvetica, sans-serif;
+  letter-spacing: 1.5px;
 }
 .main__button {
   display: inline-block;
-  width:250px;
-  height: 50px;
-  padding: 14px 16px;
-  font: bold 14px/16px robotolight, arial, helvetica, sans-serif;
+  width:249px;
+  height: 30px;
+  padding: 18px 0 10px 21px;
+  font: bold 18px/21px robotolight, arial, helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
   text-decoration: none;
   border-radius: 4px;
   transition: opacity .5s;
+  letter-spacing: 0.5px
 }
 .main__button:hover {
   opacity: .5;
@@ -110,20 +113,20 @@
   margin: auto;
   width: 32px;
   height: 8px;
-  background: no-repeat url('img/elipses.svg');
+  background:no-repeat url('img/elipses.svg');
 }
 @media (max-width: 1367px) {
   .header {
-    padding: 32px 0px 17px 20px;
+    padding: 38px 0px 7px 22px;
   }
   .menu {
-    margin: 6px 25px 0 0;
+    margin: 10px 27px 0 0;
   }
   .menu__item {
     font: 500 14px/16px 'robotomedium', arial, helvetica, sans-serif;
   }
     .main {
-          margin: -21px 21px 0 0;
+          margin: -25px 23px 0 0;
           padding: 18px 58% 145px 22px;
           background-size: 514px 439px;
       }
@@ -138,17 +141,23 @@
       width: 367px;
       height: 43px;
       margin: 0 0 43px 0;
+      letter-spacing: 0px;
       font: 500 18px/21px 'robotomedium', arial, helvetica, sans-serif;
     }
     .main__button {
       font: 300 14px/16px 'robotomedium', arial, helvetica, sans-serif;
-      width: 168px
+      width: 173px;
       height: 17px;
-      padding: 14px 25px 13px 16px;
+      padding: 14px 20px 13px 16px;
 
 }
 }
 @media (max-width: 1024px) {
+  .wrapper {
+    margin: -32px 0px 0 24px;
+    width: auto;
+    letter-spacing: 0.5px;
+}
   .header {
       padding: 32px 0px 17px 0px;
   }
@@ -157,17 +166,18 @@
   }
   .logo__circle {
     left: 22px;
-    top: 45%;
+    top: 49%;
   }
   .logo__circle_color_blue {
-    left: 31px;
-    top: 69%;
+    left: 30px;
+    top: 55%;
   }
   .menu {
-      margin: 6px -316px 0 0;
+      margin: 6px 47px 0 0;
+      letter-spacing: 0px;
   }
   .main {
-    margin: -20px -427px 10px 0;
+    margin: -34px 0px 0px 2px;
     padding: 18px 0 135px 22px;
     background-size: 514px 439px;
     background-position: 437px 1px;
@@ -211,6 +221,7 @@
   height: 27px;
   cursor: pointer;
   z-index: 1;
+  margin: 6px 0 0 0;
 }
 .menu__btn > span,
 .menu__btn > span::before,
@@ -239,7 +250,7 @@
   position: fixed;
   visibility: hidden;
   left: 90%;
-  padding: 7% 0 0 0;
+  padding: 18% 0 0 0;
   margin: -20% 0 0 0;
   width: 100%;
   height: 100%;
@@ -267,12 +278,12 @@
     position: absolute;
     width: 28px;
     height: 28px;
-    top: -12%;
-    left:-3px;
+    top: 47%;
+    left: 0px;
 }
 .logo__circle_color_blue {
-    top: 30%;
-    left:4px;
+    top: 56%;
+    left:8px;
 }
 .app {
   display: none;
@@ -281,10 +292,10 @@
   display: none;
 }
 .main {
-  background-position: 51% 2%;
+  background-position: 34% -2%;
  background-size: 280px 239px;
 margin:0;
-padding-top:300px;
+padding: 281px 0 0 4px;
 }
 .main__title {
     letter-spacing: 1px;
@@ -306,18 +317,17 @@ br {
     clear:none;
 }
 .main__text {
-    width: 275px;
+    width: 247px;
     height: 57px;
-    margin: 0 0 27px 31px;
+    margin: 0 0 26px 36px;
     font: 500 16px/19px 'robotomedium', arial, helvetica, sans-serif;
     text-align: center;
-    word-spacing: 4px;
-}
-element.style {
+    word-spacing: -1px;
 }
 .main__button {
-    width: 168px;
+  letter-spacing: 0px;
+    width: 173px;
     text-align: center;
-    margin: 0px 0px 0px 54px;
+    margin: 0px 0px 0px 56px;
 }
 }
