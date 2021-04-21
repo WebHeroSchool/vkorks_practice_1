@@ -116,6 +116,9 @@ body {
   background:no-repeat url('img/elipses.svg');
 }
 @media (max-width: 1367px) {
+  .wrapper{
+    margin:-40px 195px 0 197px;
+  }
   .header {
     padding: 38px 0px 7px 22px;
   }
@@ -132,7 +135,7 @@ body {
       }
   .main__title {
     letter-spacing: 2px;
-        margin: 0px 0px 40px 0px;
+        margin: 0px 0px 43px 0px;
         font: 700 50px/66px 'pt_serifregular', arial, helvetica sans-serif;
         width: 434px;
         height: 195px;
@@ -140,16 +143,16 @@ body {
     .main__text {
       width: 367px;
       height: 43px;
-      margin: 0 0 43px 0;
+      margin: 0 0 41px 0;
       letter-spacing: 0px;
-      font: 500 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+      font: 400 18px/21px 'robotomedium', arial, helvetica, sans-serif;
     }
     .main__button {
       font: 300 14px/16px 'robotomedium', arial, helvetica, sans-serif;
-      width: 173px;
+      width: 190px;
+      letter-spacing: 0;
       height: 17px;
-      padding: 14px 20px 13px 16px;
-
+      padding: 14px 3px 13px 16px;
 }
 }
 @media (max-width: 1024px) {
@@ -183,10 +186,19 @@ body {
     background-position: 437px 1px;
     width: auto;
 }
+.main__button {
+
+  margin: -2px 0 12px -2px;
+}
 .elipses {
-  margin: 0px 0 0 470px;
+  margin: 0px 0 0 47.2%;
+}
+.main__text{
+  margin: -4px 0 44px -2px;
+      font: 300 18px/21px 'robotomedium', arial, helvetica, sans-serif;
 }
 }
+
 @media (min-width: 300px) and (max-width: 1023px){
   .hamburger-menu {
     display: inline;
@@ -308,7 +320,7 @@ padding:297px 0 0 0;
     width: 268px;
     height: 97px;
     text-align: center;
-        margin: -36px -6px 53px 0;
+    margin: -36px -6px 57px 0;
 }
 .header {
   margin-bottom: 0;
@@ -324,16 +336,20 @@ br {
 .main__text {
     width: 247px;
     height: 57px;
-    font: 500 16px/19px 'robotomedium', arial, helvetica, sans-serif;
+    font: 400 16px/19px 'robotomedium', arial, helvetica, sans-serif;
     text-align: center;
-    word-spacing: -1px;
+    word-spacing: 0px;
+    margin: -4px 0 44px 6px;
+
+
 }
 .main__button {
   letter-spacing: 0px;
-    width: 173px;
-    text-align: center;
-    margin: -18px -1px 0 0;
-}
+      width: 178px;
+      padding: 14px 20px 13px 12px;
+      text-align: center;
+      margin: -19px 0px 0px 0px;
+  }
 }
 @media (min-width:1025px) and (max-width:1365px) {
 * {
